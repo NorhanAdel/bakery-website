@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    border: 0;
+     
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.pdy{
+    padding: 90px 0;
+}
+
+header .bg{
+    background-color: #fff;
+}
+.bg a{
+    color: #000;
+}
+.landing_content h1{
+margin: 20px 0;
+}
+.height{
+    height: 50vh;
+}
+
+.title{
+    margin: 30px 0;
+     text-align: center;
+    font-size: 50px;
+}
+.title span{
+    color:rgb(139, 104, 37) ;
+    font-size: 60px;
+}
+.btn{
+    padding: 15px 25px;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.scroll{
+     
+    background: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .7);
+  
+ }
+ .scroll a{
+    color: #000;
+ }
+  .scroll {
+    color: #000;
+ }
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url('drew-coffman-Azli_kcxRNE-unsplash2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  
+}
+ 
+.navbar h1{
+    color:rgb(184, 133, 38);
+    font-weight: 300;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+  top: 0;
+  z-index: 1000;
+ 
+   
+}
+.navbar{
+
+    padding-top: 10px;
+    z-index: 1000;
+    color: #fff;
+    height: 80px;
+    transition: .5s;
+    
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+margin: 20px 15px;
+color: #fff;
+padding-top: 50px;
+padding-bottom: 20px;
+position: relative;
+ transition: .4s;
+ 
+}
+nav ul li a::after , .active::after{
+content: '';
+position: absolute;
+left: 0;
+display: block;
+width:0;
+height: 3px;
+border-radius: 20px;
+background-color:rgb(184, 133, 38) ;
+ 
+transition: .5s;
+}
+.active::after{
+    width: 100%;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li a:hover,.active{
+    color:rgb(184, 133, 38) ;
+}
+.landingpage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   color: rgba(255, 255, 255, 0.685);
+
+}
+.landingpage h3{
+    font-weight: 200;
+}
+.landingpage h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin: 10px 0 20px;
+}
+.landingpage p{
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+.learn {
+    background: rgb(139, 104, 37);
+}
+.contact{
+    border-color: #fff;
+    margin-left: 10px;
+}
+.learn:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+.contact:hover{
+    background: rgb(139, 104, 37);
+    border-color: transparent;
+}
+.aboutcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+ 
+.image img{
+   width: 550px;
+   height: 500px;
+}
+.aboutcontent .info{
+    margin-top: 30px;
+     
+}
+.aboutcontent .info p{
+    line-height: 1.9;
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.726);
+}
+.info ul li{
+    margin-bottom: 30px;
+}
+  ul li span{
+    margin-right: 15px;
+    border: 1px solid rgba(139, 103, 37, 0.651);
+    border-radius: 50%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+ ul li span i{
+color: rgb(139, 104, 37);
+}
+
+.ourbaking-item{
+    border: 1px solid #ddd;
+    transition:.4s;
+    padding-bottom: 8px;
+}
+.ourbaking-item:hover{
+ 
+box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+.footer{
+    font-size: 14px;
+    background-color: rgb(66, 58, 49);
+}
+.top-part{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 70px 0;
+    gap: 2.5rem
+}
+.top-part h3{
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.aboutus p{
+color: rgba(255, 255, 255, 0.555);
+line-height: 1.9;
+ 
+}
+.firstprahgrah{
+    margin-bottom: 20px;
+}
+.top-part li{
+    color: rgba(255, 255, 255, 0.555);
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+ 
+    border-bottom: 1px solid rgba(238, 238, 238, 0.192);
+}
+ .contactdetails i{
+    margin-right: 10px;
+ }
+ .bottom-part{
+    background-color: rgb(46, 42, 37);
+   padding: 50px 0;
+   text-align: center;
+ }
+ .bottom-part h1{
+    color: rgba(255, 255, 255, 0.781);
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 60px;
+ }
+ .bottom-part p{
+    color: rgba(255, 255, 255, 0.342);
+    margin-bottom: 20px;
+    font-size: 14px;
+ }
+ .bottom-part span{
+    background-color: rgb(66, 58, 49);
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: .5s;
+ }
+
+ .bottom-part span i{
+    color: rgba(255, 255, 255, 0.555);
+
+ }
+ .bottom-part span:hover{
+background-color: transparent;
+border-color:rgb(73, 62, 49) ;
+ }
+
+ .aboutpage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   color: rgba(255, 255, 255, 0.685);
+
+}
+.aboutpage h1{
+    font-size: 60px;
+    color: #fff;
+}
+.aboutheder{
+    height: 60vh;
+    background-image: url('IMG-20210819-WA0002.jpg');
+}
+.ourchifs{
+    padding: 50px 0;
+}
+.chefs{
+    display: flex;
+     
+}
+.chief{
+    width: 33%;
+    margin: 0 10px;
+    padding: 20px;
+     border: 1px solid rgb(216, 213, 213);
+     border-radius: 20px;
+     text-align: center;
+     margin-bottom: 50px;
+     transition: .5s;
+}
+
+.chief-imge img {
+    width: 100%;
+    border-radius: 20px;
+     
+}
+.chief h2{
+    margin: 15px 0;
+    color: rgb(139, 104, 37);
+    
+    }
+ 
+.national{
+    margin-bottom: 10px;
+}
+.national span{
+    color: rgb(139, 104, 37);
+}
+.chief p{
+    line-height: 1.9;
+     color: rgb(71, 70, 70);
+}
+.know-more{
+    background: rgb(139, 104, 37);
+    margin-top: 10px;
+    transition: .5s;
+}
+.chief:hover{
+    border-color: rgb(150, 107, 28) ;
+   
+}
+.know-more:hover{
+background-color: transparent;
+border-color:  rgb(112, 84, 32);
+color:  rgb(116, 87, 34);
+}
+.aboutdecrption{
+    position: relative;
+}
+.about-content{
+    display: flex;
+    
+}
+ .about-info{
+    background-color: rgba(150, 107, 28, 0.767) ;
+    text-align: center;
+    padding: 40px 30px;
+ }
+.about-info h1{
+font-size: 50px;
+margin-bottom: 20px;
+color: #fff;
+}
+.about-info p{
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 20px;
+    line-height: 1.9;
+}
+ .about-info button{
+    background-color: #fff;
+    color:rgba(150, 107, 28, 0.767) ;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    
+ }
+ 
+.about-info p::first-letter{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.about-image img{
+    width: 500px;
+    height: 600px;
+}
+.our-loction{
+    background-color: #eee;
+     
+}
+.our-location0content{
+    display: flex;
+
+}
+.our-loction-info{
+    padding-top: 90px;
+    margin-right: 50px;
+}
+.our-loction h1{
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.our-loction-info p{
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, 0.582);
+}
+.ourbaking h1{
+font-weight: 400;
+margin-bottom: 20px;
+}
+.ourbaking p{
+    color: rgba(0, 0, 0, 0.582);
+}
+.ourbaking .subtitle{
+    margin-bottom: 60px;
+}
+.ourbaking-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+ .ourbaking-image img{
+    width: 390px;
+    height: 300px;
+ }
+ .ourbaking-info{
+    text-align: center;
+ }
+ .ourbaking-info h1{
+    margin: 20px 0;
+    font-size: 25px;
+ }
+ .ourbaking-info p{
+    line-height: 1.9;
+    font-size: 14px;
+ }
+ .ourcontact {
+    background-color: #eee;
+ }
+ .ourcontact-content{
+    display: flex;
+ }
+ .ourcontact-info{
+    padding-top: 20px;
+    margin-right: 20px;
+ }
+ .ourcontact-info h1{
+    font-weight: 300;
+    margin-bottom: 20px;
+ }
+ .ourcontact-info p{
+    color: rgba(0, 0, 0, 0.582);
+    margin-bottom: 20px;
+    font-size: 14px;
+ }
+ .ourcontact-info li{
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.582);
+ }
+ .ourcontact-info span{
+    margin-right: 10px;
+    background-color:rgba(172, 128, 48, 0.767)  ;
+    padding:  10px;
+    border-radius: 50%;
+ }
+ .ourcontact-info span i{
+    color: #fff;
+    font-size: 20px;
+ }
+ 

@@ -1,0 +1,81 @@
+ 
+
+/* our story page*/
+.our_story_content{
+    display: flex;
+
+}
+.our_story_images{
+ width: 45%;
+ margin-right: 50px;
+}
+.our_story_images img{
+     width: 100%;
+}
+.our_story_content .our_story_info{
+    flex-basis: 50%;
+    margin-top: 70px;
+}
+.our_story_content .our_story_info h1{
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.our_story_content .our_story_info p{
+   color: rgb(143, 142, 142);
+   margin-bottom: 50px;
+   line-height: 1.9;
+}
+.our_bakery{
+    background: #eee;
+}
+.our_bakery_heading{
+    text-align: center;
+}
+.our_bakery_heading i{
+    font-size: 40px;
+    color:rgb(139, 104, 37) ;
+}
+
+.our_bakery_heading h1{
+  font-size: 25px;
+  font-weight: 200;
+}
+.our_bakery p{
+    color: rgb(90, 88, 88);
+}
+.our_bakery_content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-top: 30px;
+}
+.our_bakery_item h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.our_bakery_item p{
+    line-height: 1.9;
+}
+.comment{
+    background-color:rgb(146, 117, 64) ;
+}
+.comment_content{
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   padding: 0 60px;
+}
+.comment_item{
+    text-align: center;
+}
+.comment_content i{
+    font-size: 35px;
+    
+    margin-bottom: 30px;
+}
+.comment_content h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}

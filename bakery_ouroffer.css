@@ -1,0 +1,35 @@
+ .header{
+    height: 50vh;
+ }
+ .price_page{
+    background-color: #eee;
+ }
+ .price_content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+ }
+ .item_price{
+    position: relative;
+    transition: .4s;
+    padding: 10px;
+ }
+ .item_price:hover{
+   box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+ }
+ .item_price h1{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+ }
+.item_price span{
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+.item_price p{
+    font-size: 12px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
